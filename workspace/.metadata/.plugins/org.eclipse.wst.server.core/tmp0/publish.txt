@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Mon Jan 06 16:20:44 IST 2020
+org.eclipse.jst.jee.server\:UserManagement=/home/sneha-prakat/apps/apache-tomcat-9.0.27/wtpwebapps/UserManagement
+org.eclipse.jst.jee.server\:registration.html=/home/sneha-prakat/apps/apache-tomcat-9.0.27/wtpwebapps/registration.html

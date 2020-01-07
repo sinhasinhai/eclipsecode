@@ -1,0 +1,12 @@
+package com.UserManagement.Dalrada;
+
+import javax.servlet.GenericServlet;
+import javax.servlet.annotation.WebServlet;
+
+@WebServlet("/page")
+public class page extends GenericServlet {
+	private static final long serialVersionUID = 1L;
+
+public class page {
+
+}

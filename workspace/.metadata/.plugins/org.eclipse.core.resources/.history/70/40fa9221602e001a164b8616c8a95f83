@@ -1,0 +1,5 @@
+package abst.com.demo.project;
+
+public abstract class Animal {
+
+}

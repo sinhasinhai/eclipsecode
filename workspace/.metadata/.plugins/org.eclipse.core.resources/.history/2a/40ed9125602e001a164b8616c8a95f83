@@ -1,0 +1,8 @@
+package abst.com.demo.project;
+
+public abstract class Animal {
+public abstract void animalsound();
+public void sleep(){
+	
+}
+}

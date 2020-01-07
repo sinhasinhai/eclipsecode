@@ -1,0 +1,27 @@
+package com.UserManagement.Dalrada;
+
+import javax.servlet.GenericServlet;
+import javax.servlet.ServletRequest;
+import javax.servlet.annotation.WebServlet;
+
+@WebServlet("/page")
+public class page extends GenericServlet {
+	private static final long serialVersionUID = 1L;
+
+public class page {
+  super();
+}
+
+public void service(ServletRequest request SevletResponce response) {
+	Connection con=null;
+	PreparedStatment per=null;
+	String Full Name=request.getParameter("p1");
+	String Email=request.getParameter("p2");
+	String role=request.getParameter("p3");
+	
+	try {
+		PrintWrite pr=Responce.getWriter();
+		pr.println("you are done with the registration");
+		Class.forName(com.mysql.jdbc.Driver);
+	}
+}

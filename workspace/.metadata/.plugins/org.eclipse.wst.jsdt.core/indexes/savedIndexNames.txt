@@ -1,0 +1,10 @@
+INDEX VERSION 1.4+/home/sneha-prakat/eclipse/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+331967048.index
+2228967716.index
+3531115684.index
+372770030.index
+3646787111.index
+255811196.index
+1701202539.index
+3573557914.index
+506348957.index

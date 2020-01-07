@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="fa">
+      <center><h2 style="color: #A5D6A7;">User Management</h2></center>  
+        <div class="container">
+                <div class="panel panel-default">
+                        <div class="panel-heading">
+                        <h4><u><b>Create User</b></u></h4>
+                        </div>
+                        <form action="">
+                        <div class="panel-body">
+                        <div class="col-sm-6">
+                         <div class="row-sm-5">
+                         <label for="uname"><b>Full Name:</b></label>
+                         <input type="text" name="fName" placeholder="Enter Full Name" required/> 
+                         </div>  
+                         <br>
+                         <div class="row-sm-5">
+                          <label for="role"><b>Role:</b></label>  
+                           <input type="text" name="rName" placeholder="enter the role" required/> 
+                         </div>
+                        </div>
+                        <div class="col-sm-6">
+                         <div class="row-sm-5">
+                        <lable for="email"><b>Email:</b></lable>
+                        <input type="email" pattern="[^ @]*@[^ @]*" name="email" placeholder="Enter your email">
+                        </div>
+                        <br>
+                        <div class="row-sm-5">
+                                <label for="password"><b>Password:</b></label>
+                                <input type="password" name="pWord" placeholder="Enter password">
+                        </div>
+                        </div>
+                        </div>
+                        <div class="panel-footer" name="a7" style="padding-left: 25px;">
+
+                         <button type="button" class="btn btn-success" name="addRow">Save</button>
+                           <button type="reset" class="btn btn-danger">Cancel</button>
+                         </div>
+                </div>
+</div>
+</form>
+</body>
+</html>
